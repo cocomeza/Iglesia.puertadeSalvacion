@@ -27,10 +27,11 @@ body {
 .hero-image img {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Asegura que se vea entera */
+    object-fit: cover; /* Cambiado de contain a cover */
     object-position: center;
     display: block;
 }
+
 
 .hero-text {
     position: absolute;
